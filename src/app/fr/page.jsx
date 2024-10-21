@@ -6,10 +6,11 @@ import About from "./components/About";
 import BookTable from "./components/BookTable";
 import Location from "./components/Location";
 import Footer from "./components/Footer";
+import WtspButton from "@/components/WtspButton";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center gap-2 md:gap-0">
+    <div className="relative flex flex-col justify-center items-center gap-2 md:gap-0">
       <Navbar />
       <Hero />
       <Gallery />
@@ -17,6 +18,7 @@ export default function Home() {
       <BookTable />
       <Location />
       <Footer />
+      <WtspButton />
     </div>
   );
 }

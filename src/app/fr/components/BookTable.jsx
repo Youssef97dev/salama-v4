@@ -16,7 +16,7 @@ const BookTable = () => {
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="h-full w-full md:w-1/2 flex flex-col justify-center items-center md:items-start text-primary px-10 py-10 md:py-0 space-y-3">
+      <div className="h-full w-full md:w-1/2 flex flex-col justify-center items-center md:items-start text-primary px-10 md:px-52 py-10 md:py-0 space-y-3">
         <span className="font-semibold text-lg md:text-2xl tracking-widest">
           RÉSERVEZ VOTRE TABLE
         </span>
