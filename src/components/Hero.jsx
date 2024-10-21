@@ -19,8 +19,7 @@ const Hero = () => {
       {/* Hero Content */}
 
       <div className="absolute h-full w-full flex flex-col justify-center items-center text-white space-y-3">
-        <span className="text-3xl">LE SALAMA</span>
-        <span className="text-2xl md:text-5xl text-center">
+        <span className="text-4xl md:text-7xl text-center">
           Moroccan Soul Food
         </span>
       </div>
