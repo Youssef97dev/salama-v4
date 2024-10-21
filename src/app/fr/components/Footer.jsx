@@ -23,7 +23,7 @@ const Footer = () => {
             Réserver une table
           </Link>
           <span className="uppercase font-semibold tracking-widest pt-1">
-            Horaires d'ouverture
+            {`Horaires d'ouverture`}
           </span>
           <span className="text-center">Tous les jours : de 12h00 à 02h00</span>
         </div>
