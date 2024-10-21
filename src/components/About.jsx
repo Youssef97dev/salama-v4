@@ -22,7 +22,7 @@ const About = () => {
       </div>
       <div className="bg-primary_5 h-full w-full  md:w-1/2">
         <Image
-          src="/images/gallery/salama3.jpg"
+          src="/images/about.png"
           alt="le salama main"
           width={1000}
           height={1000}
