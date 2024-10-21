@@ -20,7 +20,7 @@ const About = () => {
           fascinating place hides.`}
         </p>
       </div>
-      <div className="bg-primary_5 h-full w-full  md:w-1/2">
+      <div className="h-full w-full  md:w-1/2">
         <Image
           src="/images/about.png"
           alt="le salama main"
