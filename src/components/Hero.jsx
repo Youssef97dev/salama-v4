@@ -4,11 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import { BsInstagram, BsFacebook } from "react-icons/bs";
-import { IoMdArrowDropdown } from "react-icons/io";
-
 const Hero = () => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   return (
     <div id="hero" className="relative h-screen w-full ">
       {/* Image Background */}
