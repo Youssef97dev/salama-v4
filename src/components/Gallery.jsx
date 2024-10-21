@@ -13,8 +13,13 @@ const Gallery = () => {
     <>
       <div className="hidden md:flex w-full justify-between items-center space-x-2 py-2">
         {imagesUrl.map((image, index) => (
-          <Link href="/gallery" target="_blank" className="cursor-pointer">
-            <div key={index} className="relative">
+          <Link
+            key={index}
+            href="/gallery"
+            target="_blank"
+            className="cursor-pointer"
+          >
+            <div className="relative">
               <Image
                 src={image}
                 alt="le salama gallery"
