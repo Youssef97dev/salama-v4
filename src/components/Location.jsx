@@ -5,8 +5,17 @@ const Location = () => {
   return (
     <div
       id="location"
-      className="w-full h-full md:h-screen flex flex-col md:flex-row justify-center items-center"
+      className="w-full h-full md:h-screen flex flex-col-reverse md:flex-row justify-center items-center"
     >
+      <div className="bg-primary_5 h-full w-full md:w-1/2">
+        <Image
+          src="/images/gallery/salama7.jpg"
+          alt="le salama main"
+          width={1000}
+          height={1000}
+          className="w-full h-full object-cover"
+        />
+      </div>
       <div className="h-full w-full md:w-1/2 flex flex-col justify-center items-center md:items-start text-primary px-10 xl:px-52 py-10 md:py-0 space-y-1">
         <span className="font-semibold text-lg md:text-2xl tracking-widest mb-2">
           LOCATION
@@ -26,15 +35,6 @@ const Location = () => {
         >
           Open the map
         </Link>
-      </div>
-      <div className="bg-primary_5 h-full w-full md:w-1/2">
-        <Image
-          src="/images/gallery/salama7.jpg"
-          alt="le salama main"
-          width={1000}
-          height={1000}
-          className="w-full h-full object-cover"
-        />
       </div>
     </div>
   );

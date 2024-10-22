@@ -8,6 +8,7 @@ import Location from "./components/Location";
 import Footer from "./components/Footer";
 import WtspButton from "@/components/WtspButton";
 import MenuButton from "@/components/MenuButton";
+import AboutSecond from "./components/AboutSecond";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <Gallery />
       <About />
+      <AboutSecond />
       <BookTable />
       <Location />
       <Footer />

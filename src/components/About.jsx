@@ -11,13 +11,16 @@ const About = () => {
           ABOUT US
         </span>
         <p className="text-base md:text-xl text-center md:text-start">
-          {`Located in the heart of Djema el Fna square, it’s a cozy place to
-          enjoy a drink after a shopping spree in the souks! In the kitchen,
-          you’ll find the must-try dishes of Moroccan cuisine: shoulder of lamb,
-          Tangia, Kemias... all cooked with subtlety. As for the ambiance,
-          there’s a pianist, DJ, or dancers, depending on the evening. And
-          there’s more to discover! Come and explore the secrets this
-          fascinating place hides.`}
+          {`Nestled in the heart of the mythical Djema el Fna square, Le Salama is a true refuge after an immersion in the colorful and effervescent souks.`}
+          <br />
+          {`Here, you can enjoy a cocktail in peace and quiet, while savoring Moroccan culinary treasures.`}
+          <br />
+          {`On the menu are the must-tries: melting shoulder of lamb, delicious Tangia, or delicate Kemias, all prepared with a finesse and savoir-faire that sublimates traditional flavors.`}
+          <br />
+          {`The ambiance is not to be outdone: every evening, an oriental dance show adds a touch of magic to the atmosphere. `}
+          <br />
+          {`But this place doesn't reveal all its secrets at first glance... There are secrets waiting to be discovered, for those who dare to explore beyond the obvious. Come and let yourself be carried away by the mysterious soul of this enchanting place.`}
+          <br />
         </p>
       </div>
       <div className="h-full w-full  md:w-1/2">
