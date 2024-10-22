@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BsInstagram, BsFacebook } from "react-icons/bs";
+import { BsInstagram, BsFacebook, BsPinterest } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -64,6 +64,12 @@ const Footer = () => {
               target="_blank"
             >
               <BsFacebook size={18} />
+            </Link>
+            <Link
+              href="https://www.pinterest.com/lesalamamarrakech/"
+              target="_blank"
+            >
+              <BsPinterest size={18} />
             </Link>
           </div>
         </div>

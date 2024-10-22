@@ -143,6 +143,11 @@ const Navbar = () => {
                 GALLERY
               </Link>
             </li>
+            <li>
+              <Link href="#" className="hover:text-primary_2">
+                Events
+              </Link>
+            </li>
           </ul>
         </div>
       </Transition>

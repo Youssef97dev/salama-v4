@@ -7,6 +7,7 @@ import BookTable from "./components/BookTable";
 import Location from "./components/Location";
 import Footer from "./components/Footer";
 import WtspButton from "@/components/WtspButton";
+import MenuButton from "@/components/MenuButton";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Location />
       <Footer />
       <WtspButton />
+      <MenuButton />
     </div>
   );
 }

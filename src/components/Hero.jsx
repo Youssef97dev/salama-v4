@@ -9,7 +9,7 @@ const Hero = () => {
     <div id="hero" className="relative h-screen w-full ">
       {/* Image Background */}
       <Image
-        src="/images/hero-6.jpg"
+        src="/images/hero-1.jpg"
         alt="le salama main"
         width={1000}
         height={1000}

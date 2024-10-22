@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const imagesUrl = [
-  "/images/gallery/menu-gallery-4.jpg",
-  "/images/gallery/menu-gallery-25.jpg",
-  "/images/gallery/menu-gallery-16.jpg",
+  "/images/plats.jpg",
+  "/images/poeple.jpg",
+  "/images/rooftop-6.jpg",
 ];
 
 const Gallery = () => {
@@ -34,7 +34,7 @@ const Gallery = () => {
       <Link href="/gallery" className="cursor-pointer">
         <div className="flex h-full w-full justify-center items-center  relative md:hidden">
           <Image
-            src="/images/gallery/menu-gallery-25.jpg"
+            src="/images/platmobile.jpg"
             alt="le salama gallery"
             width={600}
             height={700}
