@@ -145,7 +145,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link href="#" className="hover:text-primary_2">
-                Événements
+                ÉVÉNEMENTS
               </Link>
             </li>
           </ul>
