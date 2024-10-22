@@ -6,7 +6,7 @@ const About = () => {
       id="about"
       className="w-full h-full md:h-screen flex flex-col md:flex-row justify-center items-center"
     >
-      <div className="h-full w-full md:w-1/2 flex flex-col justify-center items-center md:items-start text-primary px-10 md:px-52 py-10 md:py-0 space-y-3">
+      <div className="h-full w-full md:w-1/2 flex flex-col justify-center items-center md:items-start text-primary px-10 xl:px-52 py-10 md:py-0 space-y-3">
         <span className="font-semibold text-lg md:text-2xl tracking-widest">
           À PROPOS DE NOUS
         </span>
@@ -16,7 +16,7 @@ const About = () => {
       </div>
       <div className="bg-primary_5 h-full w-full  md:w-1/2">
         <Image
-          src="/images/gallery/salama3.jpg"
+          src="/images/rooftop-3.jpg"
           alt="le salama main"
           width={1000}
           height={1000}
