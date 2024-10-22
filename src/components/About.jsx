@@ -22,7 +22,7 @@ const About = () => {
       </div>
       <div className="h-full w-full  md:w-1/2">
         <Image
-          src="/images/about.png"
+          src="/images/rooftop-3.jpg"
           alt="le salama main"
           width={1000}
           height={1000}
