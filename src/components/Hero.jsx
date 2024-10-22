@@ -15,7 +15,7 @@ const Hero = () => {
         height={1000}
         className="absolute top-0 left-0 w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-[#000] h-screen mix-blend-multiply opacity-20"></div>
+      <div className="absolute inset-0 bg-[#0000004d] h-screen mix-blend-multiply "></div>
       {/* Hero Content */}
 
       <div className="absolute h-full w-full flex flex-col justify-center items-center text-white space-y-3">
